@@ -36,7 +36,7 @@ app.post('/upload', (req, res) => {
     })
 })
 
-app.get("/:home", (req, res) => {
+app.get("/:blog", (req, res) => {
     res.sendFile("index.html");
 })
 
