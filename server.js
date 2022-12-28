@@ -36,9 +36,7 @@ app.post('/upload', (req, res) => {
     })
 })
 
-app.get("/:blog", (req, res) => {
-    res.sendFile("index.html");
-})
+
 
 app.use((req, res) => {
     res.json("404");
