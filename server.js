@@ -36,8 +36,8 @@ app.post('/upload', (req, res) => {
     })
 })
 
-app.get("/:blog", (req, res) => {
-    res.sendFile(path.join(initial_path, "home.html"));
+app.get("/:home", (req, res) => {
+    res.sendFile("index.html.html");
 })
 
 app.use((req, res) => {
